@@ -14,6 +14,15 @@
     color: rgb(45, 194, 255) !important;
 }
 
+.frontpage {
+    background-image: url("../images/frontpage.png");
+}
+@media (max-width: 768px) {
+    .frontpage {
+        background-image: url("../images/frontpage_mobile.png");
+    }
+}
+
 body {
     font-family: "Rubik", Arial, sans-serif;
     font-size: 18px;
