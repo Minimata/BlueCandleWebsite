@@ -31,13 +31,8 @@
   </div>
   
   <div class="fh5co-2col fh5co-text">
-    <div class="fh5co-grid">
       {{ if .Site.Params.mission.images.enable }}
-      {{ range .Site.Params.mission.images.list }}
-      <div class="fh5co-grid-item" style="background-image: url({{ with .img }}{{ . | absURL }}{{ end }});"></div>
+      <div class="mission-image"></div>
       {{ end }}
-      {{ end }}
-      
-    </div>
   </div>
 </div> <!-- END fh5co-about -->

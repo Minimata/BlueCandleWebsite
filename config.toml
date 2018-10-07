@@ -16,7 +16,7 @@ title = "Blue Candle Studio"
 
 # Navigation section
 [params.nav]
-  mission = "Our philosophy"
+  mission = "Philosophy"
   services = "Games"
   team = "The Team"
   contact = "Get In Touch"
@@ -29,15 +29,6 @@ title = "Blue Candle Studio"
 
   [params.mission.images]
     enable = true
-
-    [[params.mission.images.list]]
-      img = "images/img_3.jpg"
-    [[params.mission.images.list]]
-      img = "images/img_2.jpg"
-    [[params.mission.images.list]]
-      img = "images/img_1.jpg"
-    [[params.mission.images.list]]
-      img = "images/img_4.jpg"
 
   [[params.mission.item]]
     weight = 1
