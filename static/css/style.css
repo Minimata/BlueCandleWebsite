@@ -27,6 +27,8 @@ Colors:
 
 .frontpage {
     background-image: url("../images/frontpage.png");
+    background-position: center !important;
+    background-attachment: fixed;
 }
 @media (max-width: 768px) {
     .frontpage {
@@ -316,7 +318,7 @@ Colors:
 
 .fh5co-main-nav {
     position: relative;
-    background: #274060;
+    background: #335c81;
 }
 
 .fh5co-main-nav.fh5co-shadow {
@@ -1163,7 +1165,7 @@ Colors:
     top: 0;
     bottom: 0;
     width: 275px;
-    background: #274060;
+    background: #335c81;
     padding: 0.75em 1.25em;
     -moz-transform: translateX(-275px);
     -webkit-transform: translateX(-275px);
@@ -1327,7 +1329,7 @@ Colors:
     margin: 0 auto;
     display: none;
     border-bottom: none !important;
-    background: #274060;
+    background: #335c81;
     padding: 0px 10px 10px 10px;
     cursor: pointer;
     -webkit-border-radius: 4px;
