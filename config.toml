@@ -16,8 +16,8 @@ title = "Blue Candle Studio"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
-  services = "Services"
+  mission = "Our philosophy"
+  services = "Games"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
