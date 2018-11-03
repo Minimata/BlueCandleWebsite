@@ -1,5 +1,5 @@
 # Main config file for icon theme.
-baseURL = "https://www.example.com/"
+baseURL = ""
 languageCode = "en-AU"
 title = "Blue Candle Studio"
 
@@ -16,8 +16,8 @@ title = "Blue Candle Studio"
 
 # Navigation section
 [params.nav]
-  mission = "Philosophy"
-  services = "Games"
+  mission = "The studio"
+  services = "The games"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
@@ -32,33 +32,33 @@ title = "Blue Candle Studio"
 
   [[params.mission.item]]
     weight = 1
-    name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "What we do"
+    title = "What we do"
+    subtitle = "At Blue Candle studios we build games with our heart"
+    description = "<p>We believe that the best games are made when done for the pleasure to play it. We don't build games for anything but to deliver a unique and consistent experience to the player. We therefore try to make our games with </p><ul class='checked'><li>a clear vision</li><li>a strong universe</li><li>passion, of course</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
-    name = "analysis"
-    title = "Resources"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "How we do it"
+    title = "How we do it"
+    subtitle = "A bit of Unreal Engine 4, some coffee and a lot of free time"
+    description = "<p>For our last game 'Frequencies' we have been using Unreal Engine 4 for the game and visuals along with Cubase and Wwise for the music, all of it being hand crafted in our free time.</p><ul class='checked'><li>Procedurally generated shaders</li><li>Interactive soundtrack</li><li>Freedom of choice</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 3
-    name = "strategy"
-    title = "Strategy"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "Our philosophy"
+    title = "Our Philosophy"
+    subtitle = "We're looking for interesting challenges, for every game is an opportunity to learn."
+    description = "<p>Learning is achieved through risk taking and we're not afraid to push our games ahead of our competences if it requires so.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
   enable = true
   video = true
-  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
+  vidlink = "https://www.youtube.com/watch?v=B8aTytVs75I?rel=0"
+  title = "Projects"
+  description = "Being a young studio our projects are few but the list is growing fast"
+   # not rendered as of today
   [[params.services.item]]
     icon = "icon-present"
     title = "Web Development"
@@ -94,101 +94,46 @@ title = "Blue Candle Studio"
   enable = true
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
+    title = "Frequencies"
+    subtitle = "A relaxing and interactive experience"
+    img = "images/frequencies.png"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_4.jpg"
+    title = "DoublyFluffy"
+    subtitle = "A jam game made of rythm, reflexes, juice and a bit of strategy"
+    img = "images/doubly_fluffy.jpg"
 
 # Team section
 [params.team]
   enable = true
   title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  description = "One programmer and one composer is all it takes"
 
   [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
+    name = "Alexandre Serex"
+    position = "Programmer"
+    description = "Gameplay programming and graphics programming but also game design, level design, marketing and brownie baking."
+    img = "images/alex_profile.jpg"
+    twitter = "https://twitter.com/EpicMinimata"
+    github = "https://github.com/Minimata"
+    linkedin = "https://www.linkedin.com/in/alexandre-serex-116428113/"
+    portefolio = "https://epic.minimata.ch/"
+    mail = "mailto:serex.alexandre@gmail.com"
 
   [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-
-  [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
+    name = "Valerio Personeni"
+    position = "Composer / sound designer"
+    description = "Music composing and sound design but also sound integration, game design, game feel and deadline reminder."
+    img = "images/valerio_profile.jpg"
+    linkedin = "https://www.linkedin.com/in/valerio-personeni-61a518129/"
+    portefolio = "http://valerio-personeni.com/"
+    mail = "mailto:v.personeni532@gmail.com"
 
 # Contact section
 [params.contact]
   enable = true
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Keep in touch"
+  message = "Feel free to contact any of us and to subscribe to the Frequencies newsletter"
   name_placeholder = "Your name"
   email_placeholder = "Your email"
   email_disclaimer = "We'll never share your email with anyone else."
@@ -199,11 +144,6 @@ title = "Blue Candle Studio"
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-  github = "#"
-  twitter = "#"
-  facebook = "#"
-  vine = "#"
-  linkedin = "#"
-  instagram = "#"
+  note = "<p><small>&copy; BlueCandle 2018</small></p>"
+
   

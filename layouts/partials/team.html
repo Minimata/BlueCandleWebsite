@@ -5,8 +5,10 @@
       <h2>{{ .title }}</h2>
       <p>{{ .description | markdownify }}</p>
     </div>
+	  <div class="team-container col-md-12">
+
     {{ range .item }}
-    <div class="col-md-4">
+    <div class="col-md-5">
       <div class="person">
 	<img src="{{ .img | absURL }}" alt="" class="img-responsive">
 	<h3>{{ .name }}</h3>
@@ -28,13 +30,20 @@
 	  {{ if isset . "github" }}
 	  <li><a href="{{ .github }}"><i class="icon-github"></i></a></li>
 	  {{ end }}
-	  {{ if isset . "linkedin" }}
-	  <li><a href="{{ .linkedin }}"><i class="icon-linkedin"></i></a></li>
-	  {{ end }}
+		{{ if isset . "linkedin" }}
+		<li><a href="{{ .linkedin }}"><i class="icon-linkedin"></i></a></li>
+		{{ end }}
+		{{ if isset . "portefolio" }}
+		<li><a href="{{ .portefolio }}"><i class="icon-globe"></i></a></li>
+		{{ end }}
+		{{ if isset . "mail" }}
+		<li><a href="{{ .mail }}"><i class="icon-envelope"></i></a></li>
+		{{ end }}
 	</ul>
       </div>
     </div>
     {{ end }}
+	  </div>
     {{ end }}
   </div>
 </div> <!-- END fh5co-team -->
